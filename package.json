@@ -1,0 +1,21 @@
+{
+  "name": "graphiti-color-theme",
+  "displayName": "Graphiti Color Theme",
+  "description": "Color theme roughly based on Monokai, but with more straight-forward token coloring",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Graphiti",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Graphiti-color-theme.json"
+      }
+    ]
+  }
+}
