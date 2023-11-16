@@ -2,18 +2,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				// "background": "#252525",
 				"foreground": "#F8F8F2",
-				// "selectionForeground": "#fffff8",
-				// "inactiveSelectionForeground": "#222222",
-				// "findHighlight": "#FFE792",
-				// "findHighlightForeground": "#000000",
-				// "activeGuide": "#9D550FB0",
-				// "bracketsForeground": "#F8F8F2A5",
-				// "bracketsOptions": "underline",
-				// "bracketContentsForeground": "#F8F8F2A5",
-				// "bracketContentsOptions": "underline",
-				// "tagsOptions": "stippled_underline"
 			}
 		},
 		{
@@ -72,7 +61,8 @@
 			"name": "Keyword",
 			"scope": [
 				"keyword",
-				"storage"
+				"storage",
+				"entity.other.attribute-name.id"
 			],
 			"settings": {
 				"foreground": "#ffd866"
@@ -94,7 +84,8 @@
 			"scope": [
 				"entity.name.function",
 				"support.function",
-				"entity.name.tag"
+				"entity.name.tag",
+				"punctuation.definition.tag"
 			],
 			"settings": {
 				"foreground": "#a9dc76"
@@ -123,7 +114,7 @@
 			"name": "diff.deleted",
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#ff005e"
+				"foreground": "#ff6188"
 			}
 		},
 		{
@@ -142,16 +133,44 @@
 		}
 	],
 	"colors": {
-		"editor.selectionBackground": "#9a332a",
-		"editor.selectionHighlightBackground": "#b8827d",
-		"editor.findMatchBackground": "#9a332a",
-		"editor.findMatchHighlightBackground": "#b8827d",
-		"editor.lineHighlightBackground": "#9a332a",
-		"editorCursor.foreground": "#ffd866",
 		"editor.background": "#252525",
 		"editor.foreground": "#F8F8F2",
 		"editorWhitespace.foreground": "#3B3A32",
-		"editor.inactiveSelectionBackground": "#bbbbbb"
+		"editorCursor.foreground": "#ffd866",
+
+		"editor.selectionBackground": "#2c425b",
+		"editor.selectionHighlightBackground": "#4c5054",
+		"editor.inactiveSelectionBackground": "#4c5054",
+		"editor.findMatchBackground": "#2c425b",
+		"editor.findMatchHighlightBackground": "#4c5054",
+		"editor.lineHighlightBackground": "#2c425b",
+		"terminal.background": "#2c425b",
+		"terminal.selectionBackground": "#9a332a",
+
+		"sideBar.border": "#78dce8",
+		"scrollbarSlider.background": "#7ea3a7",
+		"scrollbarSlider.hoverBackground": "#90c0c5",
+		"scrollbarSlider.activeBackground": "#78dce8",
+
+		"button.background": "#a9dc76",
+		"button.foreground": "#252525",
+		"badge.background": "#ff6188",
+		"badge.foreground": "#252525",
+		"activityBarBadge.background": "#a9dc76",
+		"activityBarBadge.foreground": "#252525",
+
+		"tab.activeForeground": "#F8F8F2",
+		"tab.unfocusedActiveForeground": "#F8F8F2",
+		"tab.hoverForeground": "#F8F8F2",
+		"tab.unfocusedHoverForeground": "#F8F8F2",
+		"tab.inactiveForeground": "#F8F8F2",
+		"tab.unfocusedInactiveForeground": "#F8F8F2",
+		"tab.activeBackground": "#2c425b",
+		"tab.unfocusedActiveBackground": "#4c5054",
+		"tab.hoverBackground": "#2c425b",
+		"tab.unfocusedHoverBackground": "#4c5054",
+		"tab.inactiveBackground": "#252525",
+		"tab.unfocusedInactiveBackground": "#252525",
 	},
 	"name": "Graphiti"
 }
