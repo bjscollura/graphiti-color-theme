@@ -8,7 +8,7 @@
 
 ## Install this color theme extension
 
-* To start using the extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
+* To start using the extension with Visual Studio Code copy this entire directory into the `<user home>/.vscode/extensions` folder and restart Code.
 * Press `F5` to open a new window with the extension loaded.
 * Open `File > Preferences > Color Themes` and pick the color theme.
 * Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
