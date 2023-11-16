@@ -1,16 +1,21 @@
-# graphiti-color-theme README
+# Graphiti custom theme
 
-## Working with Markdown
+## What's in the folder
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+* This folder contains all of the files necessary for this color theme extension.
+* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
+* `themes/Graphiti-color-theme.json` - the color theme definition file.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Install this color theme extension
 
-## For more information
+* To start using the extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
+* Press `F5` to open a new window with the extension loaded.
+* Open `File > Preferences > Color Themes` and pick the color theme.
+* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Make changes
 
-**Enjoy!**
+* Changes to the theme file are automatically applied to the Extension Development Host window.
+* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+
+To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.

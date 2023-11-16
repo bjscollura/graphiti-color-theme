@@ -2,18 +2,18 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"background": "#252525",
+				// "background": "#252525",
 				"foreground": "#F8F8F2",
-				"selectionForeground": "#fffff8",
-				"inactiveSelectionForeground": "#222222",
-				"findHighlight": "#FFE792",
-				"findHighlightForeground": "#000000",
-				"activeGuide": "#9D550FB0",
-				"bracketsForeground": "#F8F8F2A5",
-				"bracketsOptions": "underline",
-				"bracketContentsForeground": "#F8F8F2A5",
-				"bracketContentsOptions": "underline",
-				"tagsOptions": "stippled_underline"
+				// "selectionForeground": "#fffff8",
+				// "inactiveSelectionForeground": "#222222",
+				// "findHighlight": "#FFE792",
+				// "findHighlightForeground": "#000000",
+				// "activeGuide": "#9D550FB0",
+				// "bracketsForeground": "#F8F8F2A5",
+				// "bracketsOptions": "underline",
+				// "bracketContentsForeground": "#F8F8F2A5",
+				// "bracketContentsOptions": "underline",
+				// "tagsOptions": "stippled_underline"
 			}
 		},
 		{
