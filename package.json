@@ -1,8 +1,10 @@
 {
   "name": "graphiti-color-theme",
   "displayName": "Graphiti Color Theme",
-  "description": "Color theme roughly based on Monokai, but with more straight-forward token coloring",
-  "version": "0.0.1",
+  "description": "Color theme with clear, explicit separation of token colors.",
+  "publisher": "bjscollura",
+  "repository": "https://github.com/bjscollura/graphiti-color-theme",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.79.0"
   },
