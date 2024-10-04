@@ -144,7 +144,6 @@
 		"editorLineNumber.activeForeground": "#ffe100",
 		"editorCursor.foreground": "#ffe100",
 		"editor.lineHighlightBorder": "#ffe100",
-		"editor.lineHeight": "22",
 		"editor.lineHighlightBackground": "default",
 		"editor.selectionHighlightBackground": "#4c5054",
 		"editor.inactiveSelectionBackground": "#4c5054",
